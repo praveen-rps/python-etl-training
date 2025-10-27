@@ -1,0 +1,122 @@
+1. Input and Output
+-------------------
+Write a Python program that asks the user for their name and age, then prints:
+“Hello <name>! You will turn 100 years old in the year <year>.”
+Concepts: input(), type conversion, basic arithmetic, string formatting.
+
+
+2. Even or Odd
+--------------
+Take a number from the user and check whether it is even or odd.
+Concepts: Conditional statements (if/else), modulo operator.
+
+
+3. Find the Largest Number
+--------------------------
+Read three numbers from the user and print which one is the largest.
+Concepts: Conditional statements, comparison operators.
+
+
+4. Sum of Natural Numbers
+-------------------------
+Find the sum of all natural numbers up to a given number n.
+Concepts: Loops (for/while), arithmetic operations.
+
+
+5. Factorial of a Number
+------------------------
+Write a program to compute the factorial of a given number using a loop.
+Concepts: Loops, multiplication, accumulator variables.
+
+
+6. Multiplication Table
+-----------------------
+Print the multiplication table of any number entered by the user.
+Concepts: Loops, formatted output.
+
+
+
+7. Check for Prime Number
+-------------------------
+Check if the entered number is a prime number.
+Concepts: Loops, conditionals, divisibility test.
+
+
+8. Reverse a Number
+-------------------
+Reverse the digits of an integer (e.g., 123 → 321).
+Concepts: Loops, integer arithmetic (%, //).
+
+
+9. Count Vowels and Consonants
+------------------------------
+Accept a string and count how many vowels and consonants it contains.
+Concepts: Strings, loops, conditional statements.
+
+
+10. Palindrome String Check
+---------------------------
+Check whether a given string is a palindrome (reads the same forward and backward).
+Concepts: String slicing, comparison.
+
+
+11. Find the Maximum in a List
+-------------------------------
+Take a list of numbers as input and print the largest number.
+Concepts: Lists, loops, built-in functions (max()).
+
+
+12. Sort a List
+---------------
+Sort a list of numbers without using the built-in sort() or sorted() functions.
+Concepts: Loops, swapping, algorithmic thinking (bubble sort).
+
+
+13. Remove Duplicates from List
+------------------------------
+Write a program to remove duplicate elements from a list.
+Concepts: Sets, loops, list comprehension.
+
+
+14. Count Occurrences
+---------------------
+Count how many times each word appears in a given sentence.
+Concepts: Dictionaries, string splitting, loops.
+
+
+15. Simple Calculator
+--------------------
+Create a calculator program that performs addition, subtraction, multiplication, and division based on user input.
+Concepts: Functions, conditionals, user input.
+
+
+
+16. Fibonacci Series
+-------------------
+Generate and print the first n terms of the Fibonacci series.
+Concepts: Loops, variables, arithmetic operations.
+
+
+17. Check Armstrong Number
+--------------------------
+Check whether a number is an Armstrong number (e.g., 153 = 1³ + 5³ + 3³).
+Concepts: Loops, exponentiation, digit extraction.
+
+
+18. Count Words in a Sentence
+------------------------------
+Ask the user to enter a sentence and display how many words it contains.
+Concepts: Strings, split(), length calculation.
+
+
+19. Number Guessing Game
+-----------------------
+Generate a random number between 1 and 100. Let the user guess the number until they get it right, giving hints whether the guess is too high or too low.
+Concepts: Loops, random module, conditionals.
+
+
+
+20. Handle Division by Zero
+---------------------------
+Write a program that accepts two numbers and divides them. Handle division by zero using exception handling.
+Concepts: try/except, exception handling.

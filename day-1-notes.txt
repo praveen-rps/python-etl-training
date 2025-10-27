@@ -1,0 +1,265 @@
+GUI based interpretor -- Jupyter Notebook ---> 
+
+
+int x;
+
+x=10
+x = 2
+
+x = "Hello" ; syntax error
+
+
+Python is dynamic progr lang
+
+x = 1
+x = "hello"
+x = True
+
+
+1. Basic Types - int, float, complex, bool, string
+
+x =1
+x = 2.345
+y = 3 + 5j  (3 real part and 5 is imaginary part)
+
+x = True
+z =False
+
+name = "hello"
+city = "Chennai"
+
+
+
+2. sequence Types - list, tuple, range
+
+
+list -- Ordered, mutable collection that can hold mixed data types, it is represented with []
+
+data = [1,2,3,4,5]
+
+0 to 
+1
+2
+3
+4
+;
+;
+n-1
+
+data[0] ---> 1
+data[1]---> 2
+data[4] --> 5
+data[5] ---> Runtime Error
+
+Tuple - Ordered, immutable collection of heterogenous types
+
+degrees = ("mca","mba","MTech")
+
+range--> numeric ---> generate the consecutive numbers
+
+data = [1,2,3,4,5...................99,100]
+
+data = range(100)
+
+set -- unordered collection of unique elements
+
+
+union()
+intersect()
+unionall()
+difference()
+
+
+Dictionary
+----------
+
+variable = {
+	"key1":"value1",
+	"key2":"value2",
+	;
+	;
+}
+
+
+employee = {
+	"name":"Praveen",
+	"desg":"manager",
+	"dept":"finance"
+}
+
+
+
+
+input and output methods
+-----------------------
+
+
+print("string")
+
+Length = 10 and breadth = 20
+
+variable = input("string")
+x = input("Enter a value")
+
+
+Control Statements
+------------------
+Those statements which will transfer the control from one part of the program to another part of the program
+
+1. conditional based  -- Ex> if and loops ( while, for)
+2. unconditional based -- ex> break, continue
+
+syntax:
+-------
+if cond:
+  statements
+
+next_statement
+
+
+
+
+
+
+s1<----
+s2
+s3
+s4
+s5
+
+Loops -- statements used to repeat the given set of statemnets for finite number of times
+
+print("HellO")
+
+while
+for
+
+syntax:
+
+while cond:
+   statements
+
+next-statements
+
+for loop
+-------
+
+for variable in sequence:
+	statements
+
+
+
+for i in [1,2,3,"Praveen",5]:
+	print("Hello")
+
+
+Hello
+Hello
+Hello
+Hello
+Hello
+
+
+for i in [1,2,3,"Praveen",5]:
+	print(i)
+
+1
+2
+3
+Praveen
+5
+
+methods or functions
+--------------------
+
+It is a sub program or program segment which is used to perform some specific task:
+
+a = input("enter a value")
+
+print("Hello")
+
+
+s1
+s2
+s3
+;
+;
+;
+s10
+
+syntax:
+
+def method_name(parameters):
+	body of the method
+	[return value]
+
+
+def method_name(*args):
+	statements
+
+
+Order
+----
+
+1. Normal parameters---> variable arguments ---> default paratemrs --> variable keyword args
+
+
+
+Exception Handling
+-------------------
+
+
+An runtime error is called an exception
+
+An exception will disrupts the normal execution of program
+
+It is the process of handling the runtime exceptions such that it will make the program flow smoothly
+
+
+
+
+
+c = a / b
+print(c)
+
+
+try:
+open the file
+# all The code which we might except runtime errors
+
+
+--> exception
+
+
+except ExceptionObject:
+
+# the exception handling code
+
+
+
+finally:
+
+# Mandatory block 
+close the file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
