@@ -1,0 +1,179 @@
+1. User defined exception or custom exceptions
+
+2. Object Oriented Concepts -class, object, constructors and inheritance
+
+3. Database Connectivity 
+
+4. File Processing
+
+
+
+try:
+  a = 10
+  b = 0
+  c = a/b
+  print(c)
+  str = "Hai"  # 0,1,2
+  print(str[5]) IndexError
+except Exception:
+   // statements
+
+except IndexError:
+  //
+
+
+
+balance = 5000
+
+withdraw(amount) ---> balance = balance - amount
+withdraw(2000) ---> balance = 5000 - 2000 
+balance = 3000 >=1000
+
+withdraw(2500) ---> balance = 3000 - 2500 = 500
+
+balance = 500
+
+
+
+checkage(age) ---> Eligible or not eligible
+
+checkage(10) ---> not eligible
+
+checkage(45) ---> eligible
+
+checkage(-20) ---> 
+
+checage(340) ---> 
+
+def sample():
+	pass
+
+
+	
+
+
+sample() ---> Hello
+
+
+class ExceptionName(Exception):
+	pass
+
+
+
+
+class InvalidAgeError(Exception):
+      pass
+
+
+class InsufficientFundsError(Exception):
+      pass
+
+
+
+
+raise exception
+
+
+OOPS -- The process of making the programming element as if it behaves like a real time entity
+
+
+class - It is the group of objects having the same properties or behavior
+Object - It is an instance of the class
+
+Objects are real time entities and classes are imaginary or logical entities
+
+
+
+class <classname>:
+    pass
+
+class Employee:
+   # collection of methods and variables
+   pass
+
+class Student:
+   pass
+
+class Book:
+   pass
+
+
+
+class Student:
+	def reading():
+		print("Student will read")
+	def writing():
+		print("Student will write")
+	def sleeping():
+		print("student will sleep")
+
+
+
+
+object = classname()
+
+s1 = Student()
+s2 = Student()
+s3 = Student()
+
+
+s1.reading()
+s1.writing()
+s1.sleeping()
+
+
+
+s2.reading()
+s2.writing()
+s2.sleeping()
+
+s3.reading()
+s3.writing()
+s3.sleeping()
+
+
+constructor: It is a special method which will be automatically executed whenever the object is created
+
+
+def __init__(self):
+   pass
+
+
+
+Encapsulation is the process of combining the data and methods together inside a class
+
+
+OOPS
+----
+1. class
+2. Object
+3. Encapsulation
+4. constructor
+
+5. access modifiers -- specify the level of accesibility
+
+Cell Phone - Private 
+
+Bike -- Protected
+
+stair case -- Public 
+
+6. Inheritance - Is the process of acquiring the properties from one class to another class
+   it is used for code reusability
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
