@@ -1,0 +1,2 @@
+this is a sample python program to read the data from the keyboard and write to a file
+this is the next line exit

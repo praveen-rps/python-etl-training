@@ -1,13 +1,16 @@
 import mysql.connector
-
+import sqlite3
 # step-1 : establish the connection
+
+"""
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
     password="your_password",
     database="kyndryl"
 )
-
+"""
+conn = sqlite3.connect('kyndryl.db')
 # step-2 : create a cursor object
 csr = conn.cursor()
 

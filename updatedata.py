@@ -1,16 +1,20 @@
 import mysql.connector
-
+import sqlite3
 # step-1 : establish the connection
+
+"""
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
     password="your_password",
     database="kyndryl"
 )
+"""
+conn = sqlite3.connect('kyndryl.db')
 
 # step-2 : create a cursor object
 csr = conn.cursor()
-query = "update users set name=%s, age=%s, email=%s where id=%s "
+query = "update users set name=?, age=?, email=? where id=?"
 id = int(input("Enter the ID: "))
 name = input("Enter the new Name: ")
 age = int(input("Enter the new Age: "))

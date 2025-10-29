@@ -1,6 +1,9 @@
 import mysql.connector
-
+import sqlite3
+import oracledb
 # step-1 : establish the connection
+
+"""
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
@@ -8,9 +11,24 @@ conn = mysql.connector.connect(
     database="kyndryl"
 )
 
+conn = cx_Oracle.connect(
+    dsn="localhost:1521/orclp",
+    user="root",
+    password="your_password"
+   
+)
+
+conn = oracledb.connect(
+    dsn="localhost:1521/orclp",
+    user="root",
+    password="your_password"
+)
+"""
+
+conn = sqlite3.connect('kyndryl.db')
 # step-2 : create a cursor object
 csr = conn.cursor()
-query = "delete from users where id=%s"
+query = "delete from users where id=?"
 id = int(input("Enter the ID: "))
 
 data = (id,)
